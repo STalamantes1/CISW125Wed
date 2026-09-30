@@ -118,11 +118,10 @@ elif signal_color == "green":
 else:
     print('Huh?')
 
-signal_color = input("Enter traffic light color: ")
-is_blinking=input("Is the light blinking? ")
 
 
 
+#i did this 
 
 
 
