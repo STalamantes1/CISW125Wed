@@ -36,10 +36,16 @@
 #         print(line)
 
 
-#Appending to a file (Adding to a file)
-#Appending adds to the end of a file without deleting what's already there
+# Appending to a file (Adding to a file)
+# Appending adds to the end of a file without deleting what's already there
 # with open("Week9/stuff.txt","a") as file:
 #     file.write("\n")
 #     file.write("This should appear at the very end, cause we used mode A")
-#We use R mode to verify if a file exists 
+# # We use R mode to verify if a file exists 
 
+# with open("Week9/newFile","a") as file:
+#     file.write("\n Cat")
+
+
+name=input("What is your name: ")
+age=input("What is your age? ")
